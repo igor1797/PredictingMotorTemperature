@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:layout_marginTop="10dp"
+    app:cardCornerRadius="10dp"
+    app:contentPadding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvPoint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:text="1"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvAmbient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:visibility="gone"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvCoolant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:visibility="gone"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvU_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:visibility="gone"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvU_q"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:visibility="gone"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvMotorSpeed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:visibility="gone"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvI_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:visibility="gone"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvI_q"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:visibility="gone"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvPm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:visibility="gone"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvStatorYoke"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:visibility="gone"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvStatorTooth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:visibility="gone"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvPredicted"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp"
+            android:visibility="gone"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvActual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:visibility="gone"
+            >
+        </TextView>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
